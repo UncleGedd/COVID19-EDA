@@ -1,0 +1,167 @@
+{
+    "title": "COVID-19 Predictors",
+    "subtitle": "Per-country data that could be pertinent to COVID-19 research",
+    "id": "nightranger77/covid19-demographic-predictors",
+    "description": "Note that COVID-19 testing data will not be updated; however, COVID-19 infections and deaths from the Johns Hopkins dataset will be updated every few days.\n\nCombines the Johns Hopkins COVID-19 data with several other public datasets\n\n2018 GDP https://data.worldbank.org/indicator/NY.GDP.MKTP.CD\n\nCrime and Population https://worldpopulationreview.com/countries/crime-rate-by-country/\n\nSmoking rate https://ourworldindata.org/smoking#prevalence-of-smoking-across-the-world\n\nSex (% Female) https://data.worldbank.org/indicator/SP.POP.TOTL.FE.ZS\n\nMedian Age https://worldpopulationreview.com/countries/median-age/\n\nAlso includes COVID-19 specific data from @koryto https://www.kaggle.com/koryto/countryinfo",
+    "isPrivate": false,
+    "licenses": [
+        {
+            "name": "unknown"
+        }
+    ],
+    "keywords": [
+        "society",
+        "demographics",
+        "covid19"
+    ],
+    "collaborators": [],
+    "data": [
+        {
+            "description": "CSV",
+            "name": "covid19_by_country.csv",
+            "totalBytes": 16098,
+            "columns": [
+                {
+                    "name": "Country",
+                    "description": null,
+                    "type": "String"
+                },
+                {
+                    "name": "Tests",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Test Pop",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Density",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Urban Pop",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Quarantine",
+                    "description": null,
+                    "type": "DateTime"
+                },
+                {
+                    "name": "Schools",
+                    "description": null,
+                    "type": "DateTime"
+                },
+                {
+                    "name": "Restrictions",
+                    "description": null,
+                    "type": "DateTime"
+                },
+                {
+                    "name": "Hospital Bed",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex0",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex14",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex25",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex54",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex64",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "sex65plus",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Sex Ratio",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "lung",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Female Lung",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Male Lung",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Median Age",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "GDP 2018",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Crime Index",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Population 2020",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Smoking 2016",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Females 2018",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Total Infected",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Total Deaths",
+                    "description": null,
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Total Recovered",
+                    "description": null,
+                    "type": "Uuid"
+                }
+            ]
+        }
+    ]
+}
